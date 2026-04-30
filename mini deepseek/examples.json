@@ -1,130 +1,402 @@
 [
   {
-    "input": "Solve: Find the average of 24, 69, 18, 87, 65, 78",
-    "output": "Step 1: Sum the numbers: 341\nStep 2: Divide by count 6\nStep 3: 341 / 6 = 56\nAnswer: 56"
+    "input": "Solve: \u221a841",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 841\nStep 2: Test nearby integers\nStep 3: 28\u00b2 = 784, which is too small\nStep 4: 29\u00b2 = 841, which matches exactly\nStep 5: Therefore, the square root is 29\nAnswer: 29"
   },
   {
-    "input": "Solve: 126 mod 9",
-    "output": "Step 1: Find the remainder when 126 is divided by 9\nStep 2: 126 ÷ 9 leaves remainder 0\nAnswer: 0"
+    "input": "Solve: What is 20% of 707?",
+    "output": "Step 1: Convert percentage to decimal: 20% = 20/100 = 0.2\nStep 2: Multiply: 707 \u00d7 0.2\nStep 3: Alternative method: (707 \u00d7 20) \u00f7 100\nStep 4: Calculation: (707 \u00d7 20) = 14140\nStep 5: Divide by 100: 14140 \u00f7 100 = 141\nAnswer: 141"
   },
   {
-    "input": "Solve: Find the area of a rectangle with length 49 and width 23",
-    "output": "Step 1: Use formula Area = length × width\nStep 2: 49 × 23 = 1127\nAnswer: 1127 square units"
+    "input": "Solve: 228 mod 8",
+    "output": "Step 1: Division: 228 \u00f7 8 = 28 with some remainder\nStep 2: Multiply divisor by quotient: 8 \u00d7 28 = 224\nStep 3: Subtract from original number: 228 - 224 = 4\nStep 4: The remainder is always less than the divisor (4 < 8)\nAnswer: 4"
   },
   {
-    "input": "Solve: 11^4",
-    "output": "Step 1: Calculate 11 raised to the power of 4\nStep 2: 11^4 = 14641\nAnswer: 14641"
+    "input": "Solve: 933 - 403",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 3 - 3\nStep 3: Subtract the tens: 3 - 0\nStep 4: Subtract the hundreds: 9 - 4\nStep 5: Combine the results: 530\nStep 6: Double-check by adding back: 403 + 530 = 933 \u2714\nAnswer: 530"
   },
   {
-    "input": "Solve: Find the area of a rectangle with length 42 and width 26",
-    "output": "Step 1: Use formula Area = length × width\nStep 2: 42 × 26 = 1092\nAnswer: 1092 square units"
+    "input": "Solve: 65 mod 14",
+    "output": "Step 1: Division: 65 \u00f7 14 = 4 with some remainder\nStep 2: Multiply divisor by quotient: 14 \u00d7 4 = 56\nStep 3: Subtract from original number: 65 - 56 = 9\nStep 4: The remainder is always less than the divisor (9 < 14)\nAnswer: 9"
   },
   {
-    "input": "Solve: Find the perimeter of a square with side 57",
-    "output": "Step 1: Perimeter of square = 4 × side\nStep 2: 4 × 57 = 228\nAnswer: 228 units"
+    "input": "Solve: 113 mod 8",
+    "output": "Step 1: Division: 113 \u00f7 8 = 14 with some remainder\nStep 2: Multiply divisor by quotient: 8 \u00d7 14 = 112\nStep 3: Subtract from original number: 113 - 112 = 1\nStep 4: The remainder is always less than the divisor (1 < 8)\nAnswer: 1"
   },
   {
-    "input": "Solve: 350 - 194",
-    "output": "Step 1: Subtract 194 from 350\nStep 2: 350 - 194 = 156\nAnswer: 156"
+    "input": "Solve: 23 \u00d7 66",
+    "output": "Step 1: Break 66 into tens and units: 60 + 6\nStep 2: Multiply 23 by units digit (6): 23 \u00d7 6 = 138\nStep 3: Multiply 23 by tens digit (6) and shift left: 23 \u00d7 6 = 138, then \u00d710 = 1380\nStep 4: Add both partial products: 138 + 1380 = 1518\nStep 5: Final verification\nAnswer: 1518"
   },
   {
-    "input": "Solve: 823 + 214",
-    "output": "Step 1: Add 823 and 214\nStep 2: 823 + 214 = 1037\nAnswer: 1037"
+    "input": "Solve: 802 - 199",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 2 - 9\nStep 3: Subtract the tens: 0 - 9\nStep 4: Subtract the hundreds: 8 - 1\nStep 5: Combine the results: 603\nStep 6: Double-check by adding back: 199 + 603 = 802 \u2714\nAnswer: 603"
   },
   {
-    "input": "Solve: 5^2",
-    "output": "Step 1: Calculate 5 raised to the power of 2\nStep 2: 5^2 = 25\nAnswer: 25"
+    "input": "Solve: 763 + 381",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 700 + 300 = 1000\nStep 3: Add the tens and units: 63 + 81 = 144\nStep 4: Combine both parts: 1000 + 144 = 1144\nStep 5: Verify the addition\nAnswer: 1144"
   },
   {
-    "input": "Solve: What is 15% of 153?",
-    "output": "Step 1: Calculate 15% of 153\nStep 2: (153 * 15) / 100 = 22\nAnswer: 22"
+    "input": "Solve: 546 - 432",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 6 - 2\nStep 3: Subtract the tens: 4 - 3\nStep 4: Subtract the hundreds: 5 - 4\nStep 5: Combine the results: 114\nStep 6: Double-check by adding back: 432 + 114 = 546 \u2714\nAnswer: 114"
   },
   {
-    "input": "Solve: Is 43 a prime number?",
-    "output": "Step 1: Check if 43 has any divisors other than 1 and itself\nStep 2: It has no divisors other than 1 and 43\nAnswer: Yes"
+    "input": "Solve: 334 + 878",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 300 + 800 = 1100\nStep 3: Add the tens and units: 34 + 78 = 112\nStep 4: Combine both parts: 1100 + 112 = 1212\nStep 5: Verify the addition\nAnswer: 1212"
   },
   {
-    "input": "Solve: √169",
-    "output": "Step 1: Find the square root of 169\nStep 2: √169 = 13\nAnswer: 13"
+    "input": "Solve: 208 \u00f7 13",
+    "output": "Step 1: Understand that we need to find how many times 13 fits into 208\nStep 2: Estimate: 208 \u00f7 13 is roughly between 11 and 21\nStep 3: Perform the division: 13 \u00d7 16 = 208\nStep 4: Check for remainder: 208 - (13 \u00d7 16) = 0\nStep 5: Conclusion - exact division\nAnswer: 16"
   },
   {
-    "input": "Solve: Calculate 6!",
-    "output": "Step 1: Multiply all positive integers from 1 to 6\nStep 2: 6! = 720\nAnswer: 720"
+    "input": "Solve: 67 mod 9",
+    "output": "Step 1: Division: 67 \u00f7 9 = 7 with some remainder\nStep 2: Multiply divisor by quotient: 9 \u00d7 7 = 63\nStep 3: Subtract from original number: 67 - 63 = 4\nStep 4: The remainder is always less than the divisor (4 < 9)\nAnswer: 4"
   },
   {
-    "input": "Solve: 654 - 138",
-    "output": "Step 1: Subtract 138 from 654\nStep 2: 654 - 138 = 516\nAnswer: 516"
+    "input": "Solve: 453 + 453",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 400 + 400 = 800\nStep 3: Add the tens and units: 53 + 53 = 106\nStep 4: Combine both parts: 800 + 106 = 906\nStep 5: Verify the addition\nAnswer: 906"
   },
   {
-    "input": "Solve: Calculate simple interest for principal 5252, rate 6%, time 4 years",
-    "output": "Step 1: Use formula SI = (P × R × T)/100\nStep 2: (5252 × 6 × 4) / 100 = 1260\nAnswer: 1260"
+    "input": "Solve: 150 \u00f7 15",
+    "output": "Step 1: Understand that we need to find how many times 15 fits into 150\nStep 2: Estimate: 150 \u00f7 15 is roughly between 5 and 15\nStep 3: Perform the division: 15 \u00d7 10 = 150\nStep 4: Check for remainder: 150 - (15 \u00d7 10) = 0\nStep 5: Conclusion - exact division\nAnswer: 10"
   },
   {
-    "input": "Solve: 930 + 734",
-    "output": "Step 1: Add 930 and 734\nStep 2: 930 + 734 = 1664\nAnswer: 1664"
+    "input": "Solve: 39 \u00d7 45",
+    "output": "Step 1: Break 45 into tens and units: 40 + 5\nStep 2: Multiply 39 by units digit (5): 39 \u00d7 5 = 195\nStep 3: Multiply 39 by tens digit (4) and shift left: 39 \u00d7 4 = 156, then \u00d710 = 1560\nStep 4: Add both partial products: 195 + 1560 = 1755\nStep 5: Final verification\nAnswer: 1755"
   },
   {
-    "input": "Solve: 57 * 59",
-    "output": "Step 1: Multiply 57 by 59\nStep 2: 57 * 59 = 3363\nAnswer: 3363"
+    "input": "Solve: 727 + 626",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 700 + 600 = 1300\nStep 3: Add the tens and units: 27 + 26 = 53\nStep 4: Combine both parts: 1300 + 53 = 1353\nStep 5: Verify the addition\nAnswer: 1353"
   },
   {
-    "input": "Solve: √25",
-    "output": "Step 1: Find the square root of 25\nStep 2: √25 = 5\nAnswer: 5"
+    "input": "Solve: 38 \u00f7 2",
+    "output": "Step 1: Understand that we need to find how many times 2 fits into 38\nStep 2: Estimate: 38 \u00f7 2 is roughly between 14 and 24\nStep 3: Perform the division: 2 \u00d7 19 = 38\nStep 4: Check for remainder: 38 - (2 \u00d7 19) = 0\nStep 5: Conclusion - exact division\nAnswer: 19"
   },
   {
-    "input": "Solve: 847 + 111",
-    "output": "Step 1: Add 847 and 111\nStep 2: 847 + 111 = 958\nAnswer: 958"
+    "input": "Solve: 63 \u00d7 90",
+    "output": "Step 1: Break 90 into tens and units: 90 + 0\nStep 2: Multiply 63 by units digit (0): 63 \u00d7 0 = 0\nStep 3: Multiply 63 by tens digit (9) and shift left: 63 \u00d7 9 = 567, then \u00d710 = 5670\nStep 4: Add both partial products: 0 + 5670 = 5670\nStep 5: Final verification\nAnswer: 5670"
   },
   {
-    "input": "Solve: 3^6",
-    "output": "Step 1: Calculate 3 raised to the power of 6\nStep 2: 3^6 = 729\nAnswer: 729"
+    "input": "Solve: 903 - 586",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 3 - 6\nStep 3: Subtract the tens: 0 - 8\nStep 4: Subtract the hundreds: 9 - 5\nStep 5: Combine the results: 317\nStep 6: Double-check by adding back: 586 + 317 = 903 \u2714\nAnswer: 317"
   },
   {
-    "input": "Solve: 96 mod 9",
-    "output": "Step 1: Find the remainder when 96 is divided by 9\nStep 2: 96 ÷ 9 leaves remainder 6\nAnswer: 6"
+    "input": "Solve: 458 - 179",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 8 - 9\nStep 3: Subtract the tens: 5 - 7\nStep 4: Subtract the hundreds: 4 - 1\nStep 5: Combine the results: 279\nStep 6: Double-check by adding back: 179 + 279 = 458 \u2714\nAnswer: 279"
   },
   {
-    "input": "Solve: What is 15% of 65?",
-    "output": "Step 1: Calculate 15% of 65\nStep 2: (65 * 15) / 100 = 9\nAnswer: 9"
+    "input": "Solve: 564 + 127",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 500 + 100 = 600\nStep 3: Add the tens and units: 64 + 27 = 91\nStep 4: Combine both parts: 600 + 91 = 691\nStep 5: Verify the addition\nAnswer: 691"
   },
   {
-    "input": "Solve: √144",
-    "output": "Step 1: Find the square root of 144\nStep 2: √144 = 12\nAnswer: 12"
+    "input": "Solve: 427 - 308",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 7 - 8\nStep 3: Subtract the tens: 2 - 0\nStep 4: Subtract the hundreds: 4 - 3\nStep 5: Combine the results: 119\nStep 6: Double-check by adding back: 308 + 119 = 427 \u2714\nAnswer: 119"
   },
   {
-    "input": "Solve: 174 mod 11",
-    "output": "Step 1: Find the remainder when 174 is divided by 11\nStep 2: 174 ÷ 11 leaves remainder 9\nAnswer: 9"
+    "input": "Solve: 298 mod 7",
+    "output": "Step 1: Division: 298 \u00f7 7 = 42 with some remainder\nStep 2: Multiply divisor by quotient: 7 \u00d7 42 = 294\nStep 3: Subtract from original number: 298 - 294 = 4\nStep 4: The remainder is always less than the divisor (4 < 7)\nAnswer: 4"
   },
   {
-    "input": "Solve: 805 - 568",
-    "output": "Step 1: Subtract 568 from 805\nStep 2: 805 - 568 = 237\nAnswer: 237"
+    "input": "Solve: 10 \u00d7 30",
+    "output": "Step 1: Break 30 into tens and units: 30 + 0\nStep 2: Multiply 10 by units digit (0): 10 \u00d7 0 = 0\nStep 3: Multiply 10 by tens digit (3) and shift left: 10 \u00d7 3 = 30, then \u00d710 = 300\nStep 4: Add both partial products: 0 + 300 = 300\nStep 5: Final verification\nAnswer: 300"
   },
   {
-    "input": "Solve: 184 + 916",
-    "output": "Step 1: Add 184 and 916\nStep 2: 184 + 916 = 1100\nAnswer: 1100"
+    "input": "Solve: What is 15% of 750?",
+    "output": "Step 1: Convert percentage to decimal: 15% = 15/100 = 0.15\nStep 2: Multiply: 750 \u00d7 0.15\nStep 3: Alternative method: (750 \u00d7 15) \u00f7 100\nStep 4: Calculation: (750 \u00d7 15) = 11250\nStep 5: Divide by 100: 11250 \u00f7 100 = 112\nAnswer: 112"
   },
   {
-    "input": "Solve: 82 mod 3",
-    "output": "Step 1: Find the remainder when 82 is divided by 3\nStep 2: 82 ÷ 3 leaves remainder 1\nAnswer: 1"
+    "input": "Solve: What is 50% of 566?",
+    "output": "Step 1: Convert percentage to decimal: 50% = 50/100 = 0.5\nStep 2: Multiply: 566 \u00d7 0.5\nStep 3: Alternative method: (566 \u00d7 50) \u00f7 100\nStep 4: Calculation: (566 \u00d7 50) = 28300\nStep 5: Divide by 100: 28300 \u00f7 100 = 283\nAnswer: 283"
   },
   {
-    "input": "Solve: Find the average of 99, 64, 85, 84, 32, 36",
-    "output": "Step 1: Sum the numbers: 400\nStep 2: Divide by count 6\nStep 3: 400 / 6 = 66\nAnswer: 66"
+    "input": "Solve: 156 mod 2",
+    "output": "Step 1: Division: 156 \u00f7 2 = 78 with some remainder\nStep 2: Multiply divisor by quotient: 2 \u00d7 78 = 156\nStep 3: Subtract from original number: 156 - 156 = 0\nStep 4: The remainder is always less than the divisor (0 < 2)\nAnswer: 0"
   },
   {
-    "input": "Solve: √100",
-    "output": "Step 1: Find the square root of 100\nStep 2: √100 = 10\nAnswer: 10"
+    "input": "Solve: 7^5",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 7^1 = 7\nStep 3: 7^2 = 7 \u00d7 7 = 49\nStep 4: Continue multiplying: 7^5 = 7 \u00d7 7 \u00d7 ... (5 times)\nStep 5: Final calculation: 16807\nAnswer: 16807"
   },
   {
-    "input": "Solve: Calculate 5!",
-    "output": "Step 1: Multiply all positive integers from 1 to 5\nStep 2: 5! = 120\nAnswer: 120"
+    "input": "Solve: 118 mod 15",
+    "output": "Step 1: Division: 118 \u00f7 15 = 7 with some remainder\nStep 2: Multiply divisor by quotient: 15 \u00d7 7 = 105\nStep 3: Subtract from original number: 118 - 105 = 13\nStep 4: The remainder is always less than the divisor (13 < 15)\nAnswer: 13"
   },
   {
-    "input": "Solve: 288 ÷ 16",
-    "output": "Step 1: Divide 288 by 16\nStep 2: 288 ÷ 16 = 18\nAnswer: 18"
+    "input": "Solve: 356 + 879",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 300 + 800 = 1100\nStep 3: Add the tens and units: 56 + 79 = 135\nStep 4: Combine both parts: 1100 + 135 = 1235\nStep 5: Verify the addition\nAnswer: 1235"
   },
   {
-    "input": "Solve: 12^3",
-    "output": "Step 1: Calculate 12 raised to the power of 3\nStep 2: 12^3 = 1728\nAnswer: 1728"
+    "input": "Solve: 8^3",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 8^1 = 8\nStep 3: 8^2 = 8 \u00d7 8 = 64\nStep 4: Continue multiplying: 8^3 = 8 \u00d7 8 \u00d7 ... (3 times)\nStep 5: Final calculation: 512\nAnswer: 512"
+  },
+  {
+    "input": "Solve: 252 + 603",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 200 + 600 = 800\nStep 3: Add the tens and units: 52 + 3 = 55\nStep 4: Combine both parts: 800 + 55 = 855\nStep 5: Verify the addition\nAnswer: 855"
+  },
+  {
+    "input": "Solve: 487 + 182",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 400 + 100 = 500\nStep 3: Add the tens and units: 87 + 82 = 169\nStep 4: Combine both parts: 500 + 169 = 669\nStep 5: Verify the addition\nAnswer: 669"
+  },
+  {
+    "input": "Solve: 110 \u00f7 5",
+    "output": "Step 1: Understand that we need to find how many times 5 fits into 110\nStep 2: Estimate: 110 \u00f7 5 is roughly between 17 and 27\nStep 3: Perform the division: 5 \u00d7 22 = 110\nStep 4: Check for remainder: 110 - (5 \u00d7 22) = 0\nStep 5: Conclusion - exact division\nAnswer: 22"
+  },
+  {
+    "input": "Solve: \u221a1225",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 1225\nStep 2: Test nearby integers\nStep 3: 34\u00b2 = 1156, which is too small\nStep 4: 35\u00b2 = 1225, which matches exactly\nStep 5: Therefore, the square root is 35\nAnswer: 35"
+  },
+  {
+    "input": "Solve: 93 \u00d7 94",
+    "output": "Step 1: Break 94 into tens and units: 90 + 4\nStep 2: Multiply 93 by units digit (4): 93 \u00d7 4 = 372\nStep 3: Multiply 93 by tens digit (9) and shift left: 93 \u00d7 9 = 837, then \u00d710 = 8370\nStep 4: Add both partial products: 372 + 8370 = 8742\nStep 5: Final verification\nAnswer: 8742"
+  },
+  {
+    "input": "Solve: What is 50% of 528?",
+    "output": "Step 1: Convert percentage to decimal: 50% = 50/100 = 0.5\nStep 2: Multiply: 528 \u00d7 0.5\nStep 3: Alternative method: (528 \u00d7 50) \u00f7 100\nStep 4: Calculation: (528 \u00d7 50) = 26400\nStep 5: Divide by 100: 26400 \u00f7 100 = 264\nAnswer: 264"
+  },
+  {
+    "input": "Solve: 13 \u00d7 64",
+    "output": "Step 1: Break 64 into tens and units: 60 + 4\nStep 2: Multiply 13 by units digit (4): 13 \u00d7 4 = 52\nStep 3: Multiply 13 by tens digit (6) and shift left: 13 \u00d7 6 = 78, then \u00d710 = 780\nStep 4: Add both partial products: 52 + 780 = 832\nStep 5: Final verification\nAnswer: 832"
+  },
+  {
+    "input": "Solve: 162 \u00f7 6",
+    "output": "Step 1: Understand that we need to find how many times 6 fits into 162\nStep 2: Estimate: 162 \u00f7 6 is roughly between 22 and 32\nStep 3: Perform the division: 6 \u00d7 27 = 162\nStep 4: Check for remainder: 162 - (6 \u00d7 27) = 0\nStep 5: Conclusion - exact division\nAnswer: 27"
+  },
+  {
+    "input": "Solve: 5^4",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 5^1 = 5\nStep 3: 5^2 = 5 \u00d7 5 = 25\nStep 4: Continue multiplying: 5^4 = 5 \u00d7 5 \u00d7 ... (4 times)\nStep 5: Final calculation: 625\nAnswer: 625"
+  },
+  {
+    "input": "Solve: 94 \u00d7 23",
+    "output": "Step 1: Break 23 into tens and units: 20 + 3\nStep 2: Multiply 94 by units digit (3): 94 \u00d7 3 = 282\nStep 3: Multiply 94 by tens digit (2) and shift left: 94 \u00d7 2 = 188, then \u00d710 = 1880\nStep 4: Add both partial products: 282 + 1880 = 2162\nStep 5: Final verification\nAnswer: 2162"
+  },
+  {
+    "input": "Solve: 810 - 382",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 0 - 2\nStep 3: Subtract the tens: 1 - 8\nStep 4: Subtract the hundreds: 8 - 3\nStep 5: Combine the results: 428\nStep 6: Double-check by adding back: 382 + 428 = 810 \u2714\nAnswer: 428"
+  },
+  {
+    "input": "Solve: 662 - 322",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 2 - 2\nStep 3: Subtract the tens: 6 - 2\nStep 4: Subtract the hundreds: 6 - 3\nStep 5: Combine the results: 340\nStep 6: Double-check by adding back: 322 + 340 = 662 \u2714\nAnswer: 340"
+  },
+  {
+    "input": "Solve: \u221a100",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 100\nStep 2: Test nearby integers\nStep 3: 9\u00b2 = 81, which is too small\nStep 4: 10\u00b2 = 100, which matches exactly\nStep 5: Therefore, the square root is 10\nAnswer: 10"
+  },
+  {
+    "input": "Solve: 9^2",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 9^1 = 9\nStep 3: 9^2 = 9 \u00d7 9 = 81\nStep 4: Continue multiplying: 9^2 = 9 \u00d7 9 \u00d7 ... (2 times)\nStep 5: Final calculation: 81\nAnswer: 81"
+  },
+  {
+    "input": "Solve: 227 + 215",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 200 + 200 = 400\nStep 3: Add the tens and units: 27 + 15 = 42\nStep 4: Combine both parts: 400 + 42 = 442\nStep 5: Verify the addition\nAnswer: 442"
+  },
+  {
+    "input": "Solve: 462 + 363",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 400 + 300 = 700\nStep 3: Add the tens and units: 62 + 63 = 125\nStep 4: Combine both parts: 700 + 125 = 825\nStep 5: Verify the addition\nAnswer: 825"
+  },
+  {
+    "input": "Solve: 918 - 783",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 8 - 3\nStep 3: Subtract the tens: 1 - 8\nStep 4: Subtract the hundreds: 9 - 7\nStep 5: Combine the results: 135\nStep 6: Double-check by adding back: 783 + 135 = 918 \u2714\nAnswer: 135"
+  },
+  {
+    "input": "Solve: 996 - 235",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 6 - 5\nStep 3: Subtract the tens: 9 - 3\nStep 4: Subtract the hundreds: 9 - 2\nStep 5: Combine the results: 761\nStep 6: Double-check by adding back: 235 + 761 = 996 \u2714\nAnswer: 761"
+  },
+  {
+    "input": "Solve: 3^5",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 3^1 = 3\nStep 3: 3^2 = 3 \u00d7 3 = 9\nStep 4: Continue multiplying: 3^5 = 3 \u00d7 3 \u00d7 ... (5 times)\nStep 5: Final calculation: 243\nAnswer: 243"
+  },
+  {
+    "input": "Solve: 657 - 156",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 7 - 6\nStep 3: Subtract the tens: 5 - 5\nStep 4: Subtract the hundreds: 6 - 1\nStep 5: Combine the results: 501\nStep 6: Double-check by adding back: 156 + 501 = 657 \u2714\nAnswer: 501"
+  },
+  {
+    "input": "Solve: 17 \u00d7 22",
+    "output": "Step 1: Break 22 into tens and units: 20 + 2\nStep 2: Multiply 17 by units digit (2): 17 \u00d7 2 = 34\nStep 3: Multiply 17 by tens digit (2) and shift left: 17 \u00d7 2 = 34, then \u00d710 = 340\nStep 4: Add both partial products: 34 + 340 = 374\nStep 5: Final verification\nAnswer: 374"
+  },
+  {
+    "input": "Solve: 789 - 510",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 9 - 0\nStep 3: Subtract the tens: 8 - 1\nStep 4: Subtract the hundreds: 7 - 5\nStep 5: Combine the results: 279\nStep 6: Double-check by adding back: 510 + 279 = 789 \u2714\nAnswer: 279"
+  },
+  {
+    "input": "Solve: What is 10% of 398?",
+    "output": "Step 1: Convert percentage to decimal: 10% = 10/100 = 0.1\nStep 2: Multiply: 398 \u00d7 0.1\nStep 3: Alternative method: (398 \u00d7 10) \u00f7 100\nStep 4: Calculation: (398 \u00d7 10) = 3980\nStep 5: Divide by 100: 3980 \u00f7 100 = 40\nAnswer: 40"
+  },
+  {
+    "input": "Solve: 5^3",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 5^1 = 5\nStep 3: 5^2 = 5 \u00d7 5 = 25\nStep 4: Continue multiplying: 5^3 = 5 \u00d7 5 \u00d7 ... (3 times)\nStep 5: Final calculation: 125\nAnswer: 125"
+  },
+  {
+    "input": "Solve: 850 - 275",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 0 - 5\nStep 3: Subtract the tens: 5 - 7\nStep 4: Subtract the hundreds: 8 - 2\nStep 5: Combine the results: 575\nStep 6: Double-check by adding back: 275 + 575 = 850 \u2714\nAnswer: 575"
+  },
+  {
+    "input": "Solve: 22 \u00d7 34",
+    "output": "Step 1: Break 34 into tens and units: 30 + 4\nStep 2: Multiply 22 by units digit (4): 22 \u00d7 4 = 88\nStep 3: Multiply 22 by tens digit (3) and shift left: 22 \u00d7 3 = 66, then \u00d710 = 660\nStep 4: Add both partial products: 88 + 660 = 748\nStep 5: Final verification\nAnswer: 748"
+  },
+  {
+    "input": "Solve: 128 mod 11",
+    "output": "Step 1: Division: 128 \u00f7 11 = 11 with some remainder\nStep 2: Multiply divisor by quotient: 11 \u00d7 11 = 121\nStep 3: Subtract from original number: 128 - 121 = 7\nStep 4: The remainder is always less than the divisor (7 < 11)\nAnswer: 7"
+  },
+  {
+    "input": "Solve: \u221a81",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 81\nStep 2: Test nearby integers\nStep 3: 8\u00b2 = 64, which is too small\nStep 4: 9\u00b2 = 81, which matches exactly\nStep 5: Therefore, the square root is 9\nAnswer: 9"
+  },
+  {
+    "input": "Solve: 380 \u00f7 10",
+    "output": "Step 1: Understand that we need to find how many times 10 fits into 380\nStep 2: Estimate: 380 \u00f7 10 is roughly between 33 and 43\nStep 3: Perform the division: 10 \u00d7 38 = 380\nStep 4: Check for remainder: 380 - (10 \u00d7 38) = 0\nStep 5: Conclusion - exact division\nAnswer: 38"
+  },
+  {
+    "input": "Solve: 944 \u00f7 16",
+    "output": "Step 1: Understand that we need to find how many times 16 fits into 944\nStep 2: Estimate: 944 \u00f7 16 is roughly between 54 and 64\nStep 3: Perform the division: 16 \u00d7 59 = 944\nStep 4: Check for remainder: 944 - (16 \u00d7 59) = 0\nStep 5: Conclusion - exact division\nAnswer: 59"
+  },
+  {
+    "input": "Solve: \u221a841",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 841\nStep 2: Test nearby integers\nStep 3: 28\u00b2 = 784, which is too small\nStep 4: 29\u00b2 = 841, which matches exactly\nStep 5: Therefore, the square root is 29\nAnswer: 29"
+  },
+  {
+    "input": "Solve: 4^5",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 4^1 = 4\nStep 3: 4^2 = 4 \u00d7 4 = 16\nStep 4: Continue multiplying: 4^5 = 4 \u00d7 4 \u00d7 ... (5 times)\nStep 5: Final calculation: 1024\nAnswer: 1024"
+  },
+  {
+    "input": "Solve: 336 \u00f7 7",
+    "output": "Step 1: Understand that we need to find how many times 7 fits into 336\nStep 2: Estimate: 336 \u00f7 7 is roughly between 43 and 53\nStep 3: Perform the division: 7 \u00d7 48 = 336\nStep 4: Check for remainder: 336 - (7 \u00d7 48) = 0\nStep 5: Conclusion - exact division\nAnswer: 48"
+  },
+  {
+    "input": "Solve: What is 15% of 569?",
+    "output": "Step 1: Convert percentage to decimal: 15% = 15/100 = 0.15\nStep 2: Multiply: 569 \u00d7 0.15\nStep 3: Alternative method: (569 \u00d7 15) \u00f7 100\nStep 4: Calculation: (569 \u00d7 15) = 8535\nStep 5: Divide by 100: 8535 \u00f7 100 = 85\nAnswer: 85"
+  },
+  {
+    "input": "Solve: 378 \u00f7 7",
+    "output": "Step 1: Understand that we need to find how many times 7 fits into 378\nStep 2: Estimate: 378 \u00f7 7 is roughly between 49 and 59\nStep 3: Perform the division: 7 \u00d7 54 = 378\nStep 4: Check for remainder: 378 - (7 \u00d7 54) = 0\nStep 5: Conclusion - exact division\nAnswer: 54"
+  },
+  {
+    "input": "Solve: 360 \u00f7 9",
+    "output": "Step 1: Understand that we need to find how many times 9 fits into 360\nStep 2: Estimate: 360 \u00f7 9 is roughly between 35 and 45\nStep 3: Perform the division: 9 \u00d7 40 = 360\nStep 4: Check for remainder: 360 - (9 \u00d7 40) = 0\nStep 5: Conclusion - exact division\nAnswer: 40"
+  },
+  {
+    "input": "Solve: 50 \u00d7 65",
+    "output": "Step 1: Break 65 into tens and units: 60 + 5\nStep 2: Multiply 50 by units digit (5): 50 \u00d7 5 = 250\nStep 3: Multiply 50 by tens digit (6) and shift left: 50 \u00d7 6 = 300, then \u00d710 = 3000\nStep 4: Add both partial products: 250 + 3000 = 3250\nStep 5: Final verification\nAnswer: 3250"
+  },
+  {
+    "input": "Solve: 449 + 851",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 400 + 800 = 1200\nStep 3: Add the tens and units: 49 + 51 = 100\nStep 4: Combine both parts: 1200 + 100 = 1300\nStep 5: Verify the addition\nAnswer: 1300"
+  },
+  {
+    "input": "Solve: 30 \u00d7 17",
+    "output": "Step 1: Break 17 into tens and units: 10 + 7\nStep 2: Multiply 30 by units digit (7): 30 \u00d7 7 = 210\nStep 3: Multiply 30 by tens digit (1) and shift left: 30 \u00d7 1 = 30, then \u00d710 = 300\nStep 4: Add both partial products: 210 + 300 = 510\nStep 5: Final verification\nAnswer: 510"
+  },
+  {
+    "input": "Solve: \u221a49",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 49\nStep 2: Test nearby integers\nStep 3: 6\u00b2 = 36, which is too small\nStep 4: 7\u00b2 = 49, which matches exactly\nStep 5: Therefore, the square root is 7\nAnswer: 7"
+  },
+  {
+    "input": "Solve: 413 \u00f7 7",
+    "output": "Step 1: Understand that we need to find how many times 7 fits into 413\nStep 2: Estimate: 413 \u00f7 7 is roughly between 54 and 64\nStep 3: Perform the division: 7 \u00d7 59 = 413\nStep 4: Check for remainder: 413 - (7 \u00d7 59) = 0\nStep 5: Conclusion - exact division\nAnswer: 59"
+  },
+  {
+    "input": "Solve: 10 \u00d7 77",
+    "output": "Step 1: Break 77 into tens and units: 70 + 7\nStep 2: Multiply 10 by units digit (7): 10 \u00d7 7 = 70\nStep 3: Multiply 10 by tens digit (7) and shift left: 10 \u00d7 7 = 70, then \u00d710 = 700\nStep 4: Add both partial products: 70 + 700 = 770\nStep 5: Final verification\nAnswer: 770"
+  },
+  {
+    "input": "Solve: \u221a441",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 441\nStep 2: Test nearby integers\nStep 3: 20\u00b2 = 400, which is too small\nStep 4: 21\u00b2 = 441, which matches exactly\nStep 5: Therefore, the square root is 21\nAnswer: 21"
+  },
+  {
+    "input": "Solve: \u221a576",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 576\nStep 2: Test nearby integers\nStep 3: 23\u00b2 = 529, which is too small\nStep 4: 24\u00b2 = 576, which matches exactly\nStep 5: Therefore, the square root is 24\nAnswer: 24"
+  },
+  {
+    "input": "Solve: 916 - 629",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 6 - 9\nStep 3: Subtract the tens: 1 - 2\nStep 4: Subtract the hundreds: 9 - 6\nStep 5: Combine the results: 287\nStep 6: Double-check by adding back: 629 + 287 = 916 \u2714\nAnswer: 287"
+  },
+  {
+    "input": "Solve: 12^5",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 12^1 = 12\nStep 3: 12^2 = 12 \u00d7 12 = 144\nStep 4: Continue multiplying: 12^5 = 12 \u00d7 12 \u00d7 ... (5 times)\nStep 5: Final calculation: 248832\nAnswer: 248832"
+  },
+  {
+    "input": "Solve: 843 - 344",
+    "output": "Step 1: Align the numbers by place value\nStep 2: Subtract the units: 3 - 4\nStep 3: Subtract the tens: 4 - 4\nStep 4: Subtract the hundreds: 8 - 3\nStep 5: Combine the results: 499\nStep 6: Double-check by adding back: 344 + 499 = 843 \u2714\nAnswer: 499"
+  },
+  {
+    "input": "Solve: 93 \u00d7 73",
+    "output": "Step 1: Break 73 into tens and units: 70 + 3\nStep 2: Multiply 93 by units digit (3): 93 \u00d7 3 = 279\nStep 3: Multiply 93 by tens digit (7) and shift left: 93 \u00d7 7 = 651, then \u00d710 = 6510\nStep 4: Add both partial products: 279 + 6510 = 6789\nStep 5: Final verification\nAnswer: 6789"
+  },
+  {
+    "input": "Solve: What is 25% of 509?",
+    "output": "Step 1: Convert percentage to decimal: 25% = 25/100 = 0.25\nStep 2: Multiply: 509 \u00d7 0.25\nStep 3: Alternative method: (509 \u00d7 25) \u00f7 100\nStep 4: Calculation: (509 \u00d7 25) = 12725\nStep 5: Divide by 100: 12725 \u00f7 100 = 127\nAnswer: 127"
+  },
+  {
+    "input": "Solve: 684 \u00f7 12",
+    "output": "Step 1: Understand that we need to find how many times 12 fits into 684\nStep 2: Estimate: 684 \u00f7 12 is roughly between 52 and 62\nStep 3: Perform the division: 12 \u00d7 57 = 684\nStep 4: Check for remainder: 684 - (12 \u00d7 57) = 0\nStep 5: Conclusion - exact division\nAnswer: 57"
+  },
+  {
+    "input": "Solve: 7^4",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 7^1 = 7\nStep 3: 7^2 = 7 \u00d7 7 = 49\nStep 4: Continue multiplying: 7^4 = 7 \u00d7 7 \u00d7 ... (4 times)\nStep 5: Final calculation: 2401\nAnswer: 2401"
+  },
+  {
+    "input": "Solve: 71 \u00d7 96",
+    "output": "Step 1: Break 96 into tens and units: 90 + 6\nStep 2: Multiply 71 by units digit (6): 71 \u00d7 6 = 426\nStep 3: Multiply 71 by tens digit (9) and shift left: 71 \u00d7 9 = 639, then \u00d710 = 6390\nStep 4: Add both partial products: 426 + 6390 = 6816\nStep 5: Final verification\nAnswer: 6816"
+  },
+  {
+    "input": "Solve: 136 \u00f7 8",
+    "output": "Step 1: Understand that we need to find how many times 8 fits into 136\nStep 2: Estimate: 136 \u00f7 8 is roughly between 12 and 22\nStep 3: Perform the division: 8 \u00d7 17 = 136\nStep 4: Check for remainder: 136 - (8 \u00d7 17) = 0\nStep 5: Conclusion - exact division\nAnswer: 17"
+  },
+  {
+    "input": "Solve: 959 + 574",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 900 + 500 = 1400\nStep 3: Add the tens and units: 59 + 74 = 133\nStep 4: Combine both parts: 1400 + 133 = 1533\nStep 5: Verify the addition\nAnswer: 1533"
+  },
+  {
+    "input": "Solve: 112 + 592",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 100 + 500 = 600\nStep 3: Add the tens and units: 12 + 92 = 104\nStep 4: Combine both parts: 600 + 104 = 704\nStep 5: Verify the addition\nAnswer: 704"
+  },
+  {
+    "input": "Solve: 24 \u00f7 2",
+    "output": "Step 1: Understand that we need to find how many times 2 fits into 24\nStep 2: Estimate: 24 \u00f7 2 is roughly between 7 and 17\nStep 3: Perform the division: 2 \u00d7 12 = 24\nStep 4: Check for remainder: 24 - (2 \u00d7 12) = 0\nStep 5: Conclusion - exact division\nAnswer: 12"
+  },
+  {
+    "input": "Solve: What is 5% of 530?",
+    "output": "Step 1: Convert percentage to decimal: 5% = 5/100 = 0.05\nStep 2: Multiply: 530 \u00d7 0.05\nStep 3: Alternative method: (530 \u00d7 5) \u00f7 100\nStep 4: Calculation: (530 \u00d7 5) = 2650\nStep 5: Divide by 100: 2650 \u00f7 100 = 26\nAnswer: 26"
+  },
+  {
+    "input": "Solve: 180 + 641",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 100 + 600 = 700\nStep 3: Add the tens and units: 80 + 41 = 121\nStep 4: Combine both parts: 700 + 121 = 821\nStep 5: Verify the addition\nAnswer: 821"
+  },
+  {
+    "input": "Solve: 298 mod 13",
+    "output": "Step 1: Division: 298 \u00f7 13 = 22 with some remainder\nStep 2: Multiply divisor by quotient: 13 \u00d7 22 = 286\nStep 3: Subtract from original number: 298 - 286 = 12\nStep 4: The remainder is always less than the divisor (12 < 13)\nAnswer: 12"
+  },
+  {
+    "input": "Solve: What is 50% of 122?",
+    "output": "Step 1: Convert percentage to decimal: 50% = 50/100 = 0.5\nStep 2: Multiply: 122 \u00d7 0.5\nStep 3: Alternative method: (122 \u00d7 50) \u00f7 100\nStep 4: Calculation: (122 \u00d7 50) = 6100\nStep 5: Divide by 100: 6100 \u00f7 100 = 61\nAnswer: 61"
+  },
+  {
+    "input": "Solve: \u221a1600",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 1600\nStep 2: Test nearby integers\nStep 3: 39\u00b2 = 1521, which is too small\nStep 4: 40\u00b2 = 1600, which matches exactly\nStep 5: Therefore, the square root is 40\nAnswer: 40"
+  },
+  {
+    "input": "Solve: 129 + 808",
+    "output": "Step 1: Break down the numbers\nStep 2: Add the hundreds: 100 + 800 = 900\nStep 3: Add the tens and units: 29 + 8 = 37\nStep 4: Combine both parts: 900 + 37 = 937\nStep 5: Verify the addition\nAnswer: 937"
+  },
+  {
+    "input": "Solve: What is 50% of 68?",
+    "output": "Step 1: Convert percentage to decimal: 50% = 50/100 = 0.5\nStep 2: Multiply: 68 \u00d7 0.5\nStep 3: Alternative method: (68 \u00d7 50) \u00f7 100\nStep 4: Calculation: (68 \u00d7 50) = 3400\nStep 5: Divide by 100: 3400 \u00f7 100 = 34\nAnswer: 34"
+  },
+  {
+    "input": "Solve: 5^4",
+    "output": "Step 1: Understand exponentiation as repeated multiplication\nStep 2: 5^1 = 5\nStep 3: 5^2 = 5 \u00d7 5 = 25\nStep 4: Continue multiplying: 5^4 = 5 \u00d7 5 \u00d7 ... (4 times)\nStep 5: Final calculation: 625\nAnswer: 625"
+  },
+  {
+    "input": "Solve: 30 \u00d7 20",
+    "output": "Step 1: Break 20 into tens and units: 20 + 0\nStep 2: Multiply 30 by units digit (0): 30 \u00d7 0 = 0\nStep 3: Multiply 30 by tens digit (2) and shift left: 30 \u00d7 2 = 60, then \u00d710 = 600\nStep 4: Add both partial products: 0 + 600 = 600\nStep 5: Final verification\nAnswer: 600"
+  },
+  {
+    "input": "Solve: 231 mod 15",
+    "output": "Step 1: Division: 231 \u00f7 15 = 15 with some remainder\nStep 2: Multiply divisor by quotient: 15 \u00d7 15 = 225\nStep 3: Subtract from original number: 231 - 225 = 6\nStep 4: The remainder is always less than the divisor (6 < 15)\nAnswer: 6"
+  },
+  {
+    "input": "Solve: \u221a256",
+    "output": "Step 1: Recognize that we are looking for a number that when multiplied by itself gives 256\nStep 2: Test nearby integers\nStep 3: 15\u00b2 = 225, which is too small\nStep 4: 16\u00b2 = 256, which matches exactly\nStep 5: Therefore, the square root is 16\nAnswer: 16"
+  },
+  {
+    "input": "Solve: 273 \u00f7 13",
+    "output": "Step 1: Understand that we need to find how many times 13 fits into 273\nStep 2: Estimate: 273 \u00f7 13 is roughly between 16 and 26\nStep 3: Perform the division: 13 \u00d7 21 = 273\nStep 4: Check for remainder: 273 - (13 \u00d7 21) = 0\nStep 5: Conclusion - exact division\nAnswer: 21"
   }
 ]
