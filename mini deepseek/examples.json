@@ -1,0 +1,130 @@
+[
+  {
+    "input": "Solve: Find the average of 24, 69, 18, 87, 65, 78",
+    "output": "Step 1: Sum the numbers: 341\nStep 2: Divide by count 6\nStep 3: 341 / 6 = 56\nAnswer: 56"
+  },
+  {
+    "input": "Solve: 126 mod 9",
+    "output": "Step 1: Find the remainder when 126 is divided by 9\nStep 2: 126 ÷ 9 leaves remainder 0\nAnswer: 0"
+  },
+  {
+    "input": "Solve: Find the area of a rectangle with length 49 and width 23",
+    "output": "Step 1: Use formula Area = length × width\nStep 2: 49 × 23 = 1127\nAnswer: 1127 square units"
+  },
+  {
+    "input": "Solve: 11^4",
+    "output": "Step 1: Calculate 11 raised to the power of 4\nStep 2: 11^4 = 14641\nAnswer: 14641"
+  },
+  {
+    "input": "Solve: Find the area of a rectangle with length 42 and width 26",
+    "output": "Step 1: Use formula Area = length × width\nStep 2: 42 × 26 = 1092\nAnswer: 1092 square units"
+  },
+  {
+    "input": "Solve: Find the perimeter of a square with side 57",
+    "output": "Step 1: Perimeter of square = 4 × side\nStep 2: 4 × 57 = 228\nAnswer: 228 units"
+  },
+  {
+    "input": "Solve: 350 - 194",
+    "output": "Step 1: Subtract 194 from 350\nStep 2: 350 - 194 = 156\nAnswer: 156"
+  },
+  {
+    "input": "Solve: 823 + 214",
+    "output": "Step 1: Add 823 and 214\nStep 2: 823 + 214 = 1037\nAnswer: 1037"
+  },
+  {
+    "input": "Solve: 5^2",
+    "output": "Step 1: Calculate 5 raised to the power of 2\nStep 2: 5^2 = 25\nAnswer: 25"
+  },
+  {
+    "input": "Solve: What is 15% of 153?",
+    "output": "Step 1: Calculate 15% of 153\nStep 2: (153 * 15) / 100 = 22\nAnswer: 22"
+  },
+  {
+    "input": "Solve: Is 43 a prime number?",
+    "output": "Step 1: Check if 43 has any divisors other than 1 and itself\nStep 2: It has no divisors other than 1 and 43\nAnswer: Yes"
+  },
+  {
+    "input": "Solve: √169",
+    "output": "Step 1: Find the square root of 169\nStep 2: √169 = 13\nAnswer: 13"
+  },
+  {
+    "input": "Solve: Calculate 6!",
+    "output": "Step 1: Multiply all positive integers from 1 to 6\nStep 2: 6! = 720\nAnswer: 720"
+  },
+  {
+    "input": "Solve: 654 - 138",
+    "output": "Step 1: Subtract 138 from 654\nStep 2: 654 - 138 = 516\nAnswer: 516"
+  },
+  {
+    "input": "Solve: Calculate simple interest for principal 5252, rate 6%, time 4 years",
+    "output": "Step 1: Use formula SI = (P × R × T)/100\nStep 2: (5252 × 6 × 4) / 100 = 1260\nAnswer: 1260"
+  },
+  {
+    "input": "Solve: 930 + 734",
+    "output": "Step 1: Add 930 and 734\nStep 2: 930 + 734 = 1664\nAnswer: 1664"
+  },
+  {
+    "input": "Solve: 57 * 59",
+    "output": "Step 1: Multiply 57 by 59\nStep 2: 57 * 59 = 3363\nAnswer: 3363"
+  },
+  {
+    "input": "Solve: √25",
+    "output": "Step 1: Find the square root of 25\nStep 2: √25 = 5\nAnswer: 5"
+  },
+  {
+    "input": "Solve: 847 + 111",
+    "output": "Step 1: Add 847 and 111\nStep 2: 847 + 111 = 958\nAnswer: 958"
+  },
+  {
+    "input": "Solve: 3^6",
+    "output": "Step 1: Calculate 3 raised to the power of 6\nStep 2: 3^6 = 729\nAnswer: 729"
+  },
+  {
+    "input": "Solve: 96 mod 9",
+    "output": "Step 1: Find the remainder when 96 is divided by 9\nStep 2: 96 ÷ 9 leaves remainder 6\nAnswer: 6"
+  },
+  {
+    "input": "Solve: What is 15% of 65?",
+    "output": "Step 1: Calculate 15% of 65\nStep 2: (65 * 15) / 100 = 9\nAnswer: 9"
+  },
+  {
+    "input": "Solve: √144",
+    "output": "Step 1: Find the square root of 144\nStep 2: √144 = 12\nAnswer: 12"
+  },
+  {
+    "input": "Solve: 174 mod 11",
+    "output": "Step 1: Find the remainder when 174 is divided by 11\nStep 2: 174 ÷ 11 leaves remainder 9\nAnswer: 9"
+  },
+  {
+    "input": "Solve: 805 - 568",
+    "output": "Step 1: Subtract 568 from 805\nStep 2: 805 - 568 = 237\nAnswer: 237"
+  },
+  {
+    "input": "Solve: 184 + 916",
+    "output": "Step 1: Add 184 and 916\nStep 2: 184 + 916 = 1100\nAnswer: 1100"
+  },
+  {
+    "input": "Solve: 82 mod 3",
+    "output": "Step 1: Find the remainder when 82 is divided by 3\nStep 2: 82 ÷ 3 leaves remainder 1\nAnswer: 1"
+  },
+  {
+    "input": "Solve: Find the average of 99, 64, 85, 84, 32, 36",
+    "output": "Step 1: Sum the numbers: 400\nStep 2: Divide by count 6\nStep 3: 400 / 6 = 66\nAnswer: 66"
+  },
+  {
+    "input": "Solve: √100",
+    "output": "Step 1: Find the square root of 100\nStep 2: √100 = 10\nAnswer: 10"
+  },
+  {
+    "input": "Solve: Calculate 5!",
+    "output": "Step 1: Multiply all positive integers from 1 to 5\nStep 2: 5! = 120\nAnswer: 120"
+  },
+  {
+    "input": "Solve: 288 ÷ 16",
+    "output": "Step 1: Divide 288 by 16\nStep 2: 288 ÷ 16 = 18\nAnswer: 18"
+  },
+  {
+    "input": "Solve: 12^3",
+    "output": "Step 1: Calculate 12 raised to the power of 3\nStep 2: 12^3 = 1728\nAnswer: 1728"
+  }
+]
