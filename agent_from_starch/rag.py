@@ -7,7 +7,6 @@ class RAG:
         self.chroma_client = chromadb.Client()
         self.local_ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
         self.collection = self.chroma_client.create_collection(name=name,embedding_function=self.local_ef)
-        #client.get_or_create_collection(name="my_collection")
 
     def add(self, documents:Optional[List[any]] = None, embeddings: Optional[List[any]] = None , metadatas: Optional[List[any]]= None):
         
